@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    display: block; /* Mengubah menjadi block untuk layout vertikal */
+    padding: 12px;
+    color: #007bff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+}
+
+.navbar a.active {
+    background-color: #007bff; /* Background biru ketika aktif */
+    color: white; /* Teks putih ketika aktif */
+}
+
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.segitiga {
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.luassegitiga {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.kelilingsegitiga {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.triangle-formula {
+    margin: 20px 0;
+}
+
+.triangle-formula p {
+    text-align: left;
+}
+
+.triangle-formula .center-text {
+    text-align: center; 
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.triangle-formula img {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#hasil {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    position: relative; 
+    height: 150px; 
+}
+
+.button-container {
+    position: relative; 
+    height: 150px; 
+}
+
+.button-container {
+    position: relative; 
+    height: 150px; 
+}
+
+#hitung-luas {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    position: absolute; 
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin-bottom: 40px; /* Jarak antara button Hitung dan Reset */
+}
+
+#reset-luas {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    line-height: 1;
+    width: 80px; /* Lebar button Reset */
+    text-align: center; /* Menjaga teks tetap di tengah */
+}
+
+#hitung-keliling {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    position: absolute; 
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin-bottom: 40px; /* Jarak antara button Hitung dan Reset */
+}
+
+#reset-keliling {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    line-height: 1;
+    width: 80px; /* Lebar button Reset */
+    text-align: center; /* Menjaga teks tetap di tengah */
+}
+
+
+
+
+
